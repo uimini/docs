@@ -3,6 +3,13 @@
   "version": "v2",
   "description": "Uimini is a modern responsive CSS framework based on flexbox. Full responsive and available for free!",
   "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "start": "vuepress dev src",
+    "build": "vuepress build src",
+    "deploy": "bash ./lazy.sh"
+  },
+  "license": "MIT",
   "author": "https://github.com/uimini/",
   "repository": {
     "type": "git",
@@ -11,12 +18,6 @@
   "bugs": {
     "url": "https://github.com/uimini/docs/issues"
   },
-  "scripts": {
-    "dev": "vuepress dev src",
-    "start": "vuepress dev src",
-    "build": "vuepress build src"
-  },
-  "license": "MIT",
   "devDependencies": {
     "vuepress": "^1.5.3"
   }

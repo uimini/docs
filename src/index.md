@@ -1,8 +1,8 @@
 ---
 home: true
 # heroImage: /hero.svg
-tagline: Uimini Modern CSS framework based on Flexbox
-actionText: Get started →
+tagline: Modern CSS framework based on Flexbox
+actionText: Getting Started →
 actionLink: /docs/
 features:
 - title: Minimal
