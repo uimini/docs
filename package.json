@@ -4,9 +4,9 @@
   "description": "Uimini is a modern responsive CSS framework based on flexbox. Full responsive and available for free!",
   "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev src",
-    "start": "vuepress dev src",
-    "build": "vuepress build src",
+    "dev": "vuepress dev docs",
+    "start": "vuepress dev docs",
+    "build": "vuepress build docs",
     "git": "bash ./lazy.sh",
     "deploy": "bash ./deploy.sh"
   },
