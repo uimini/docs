@@ -8,6 +8,7 @@ const { description } = require('../../package')
 module.exports = {
   title: 'Uimini',
   description,
+  base: '/docs/',
 
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],

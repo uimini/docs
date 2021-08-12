@@ -7,7 +7,8 @@
     "dev": "vuepress dev src",
     "start": "vuepress dev src",
     "build": "vuepress build src",
-    "deploy": "bash ./lazy.sh"
+    "git": "bash ./lazy.sh",
+    "deploy": "bash ./deploy.sh"
   },
   "license": "MIT",
   "author": "https://github.com/uimini/",
