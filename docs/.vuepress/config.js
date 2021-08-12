@@ -41,6 +41,19 @@ module.exports = {
       {
         text: 'Docs',
         link: '/docs/'
+      },
+      {
+        text: 'Versions',
+        items: [
+          {
+            text: 'v2 (current version)',
+            link: '/'
+          },
+          {
+            text: 'v1',
+            link: '/v1/index.html'
+          }
+        ]
       }
     ],
     sidebar: {
