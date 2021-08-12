@@ -1,8 +1,9 @@
-const repo = {
+const path = require('path')
+
+const repos = {
   uimini: 'https://github.com/uimini/uimini',
   docs: 'https://github.com/uimini/docs'
 }
-
 const { description } = require('../../package')
 
 module.exports = {
@@ -28,9 +29,9 @@ module.exports = {
 
   themeConfig: {
     // logo: '/logo.svg',
-    repo: repo.uimini,
+    repo: repos.uimini,
     repoLabel: 'Github',
-    docsRepo: repo.docs,
+    docsRepo: repos.docs,
     docsBranch: 'master',
     editLinks: true,
     editLinkText: 'Help us improve this page!',
@@ -66,6 +67,10 @@ module.exports = {
         }
       ]
     }
+  },
+
+  alias: {
+    styles: path.resolve(__dirname, './styles')
   },
 
   plugins: [

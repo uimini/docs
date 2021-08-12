@@ -1,6 +1,6 @@
 {
   "name": "uimini-doc",
-  "version": "v2",
+  "version": "2.0.0",
   "description": "Uimini is a modern responsive CSS framework based on flexbox. Full responsive and available for free!",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,8 @@
     "url": "https://github.com/uimini/docs/issues"
   },
   "devDependencies": {
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.1.0",
     "vuepress": "^1.5.3"
   }
 }
