@@ -14,3 +14,4 @@ git commit -m 'deploy'
 git push -f git@github.com:uimini/docs.git master:gh-pages-branch
 
 cd -
+rm -rf docs/.vuepress/dist
