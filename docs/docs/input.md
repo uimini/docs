@@ -4,6 +4,8 @@ A basic component for getting the user input is a text field. Used for user inpu
 
 ## Inputs list
 
+Default example.
+
 <section class="ui-section">
   <form style="max-width: 400px;">
     <div class="ui-input-group">
@@ -46,11 +48,9 @@ A basic component for getting the user input is a text field. Used for user inpu
 
 ## Required status
 
-Required status for input
+Required status for input.
 
-Way to make input required:
-
-1. Add class `isRequired` to parent.
+Use by add class `isRequired` to parent.
 
 <section class="ui-section">
   <form style="max-width: 400px;">
@@ -81,7 +81,7 @@ Disabled input.
 
 Way to make disabled:
 
-1. Use `disabled="disabled"` for `<input />`
+1. Use `disabled="disabled"` for `<input />`;
 2. Or add class `isRequired` to parent.
 
 <section class="ui-section">

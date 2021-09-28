@@ -4,6 +4,8 @@ Checkbox component for selecting some values from several options.
 
 ## Default checkbox
 
+Default example.
+
 <section class="ui-section">
   <form>
     <div class="ui-input-group">
@@ -36,7 +38,7 @@ Checkbox component for selecting some values from several options.
 
 ## Empty label
 
-Empty label and horizontal style
+Empty label and horizontal style.
 
 <section class="ui-section">
   <form>
@@ -98,8 +100,8 @@ Disabled checkbox.
 
 Ways to make checkbox disabled:
 
-1. Use `disabled="disabled"` to `input`
-2. Or add class `isDisabled` to parent
+1. Use `disabled="disabled"` to `input`;
+2. Or add class `isDisabled` to parent.
 
 <section class="ui-section">
   <form>

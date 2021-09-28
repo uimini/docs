@@ -4,6 +4,8 @@ Radio to select a single state from multiple options.
 
 ## Default radio
 
+Default example.
+
 <section class="ui-section">
   <form>
     <div class="ui-input-group">
@@ -25,7 +27,7 @@ Radio to select a single state from multiple options.
 
 ## Empty label
 
-Empty label and horizontal style
+Empty label and horizontal style.
 
 <section class="ui-section">
   <form>
@@ -60,8 +62,8 @@ Disabled radio.
 
 Ways to make radio disabled:
 
-1. Use `disabled="disabled"` to `input`
-2. Or add class `isDisabled` to parent
+1. Use `disabled="disabled"` to `input`;
+2. Or add class `isDisabled` to parent.
 
 <section class="ui-section">
   <form>

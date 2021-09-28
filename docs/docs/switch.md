@@ -4,6 +4,8 @@ Switching selector for represent the switching between two states or on-off stat
 
 ## Default Switch
 
+Default example.
+
 <section class="ui-section">
   <form>
     <div class="ui-input-group">
@@ -36,7 +38,7 @@ Switching selector for represent the switching between two states or on-off stat
 
 ## Empty switch
 
-Empty label and horizontal style
+Empty label and horizontal style.
 
 <section class="ui-section">
   <form>
@@ -98,8 +100,8 @@ Disabled switch.
 
 Ways to switch radio disabled:
 
-1. Use `disabled="disabled"` to `input`
-2. Or add class `isDisabled` to parent
+1. Use `disabled="disabled"` to `input`;
+2. Or add class `isDisabled` to parent.
 
 <section class="ui-section">
   <form>

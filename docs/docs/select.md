@@ -4,7 +4,7 @@ To select value from some options. Used for dropdown menu to display some choice
 
 ## Default select
 
-Select with default option
+Default select example with default option.
 
 <section class="ui-section">
   <form style="max-width: 400px;">
