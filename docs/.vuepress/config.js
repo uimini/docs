@@ -73,6 +73,19 @@ module.exports = {
           title: 'Components',
           collapsable: false,
           children: ['button', 'button-group', 'card', 'table']
+        },
+
+        {
+          title: 'Forms',
+          collapsable: false,
+          children: [
+            'checkbox',
+            'input',
+            'radio',
+            'select',
+            'switch',
+            'input-group'
+          ]
         }
       ]
     }
