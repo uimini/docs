@@ -1,5 +1,7 @@
 # Radio
 
+Radio to select a single state from multiple options.
+
 ## Default radio
 
 <section class="ui-section">
@@ -54,7 +56,34 @@ Empty label and horizontal style
 
 ## Disabled status
 
+Disabled radio.
+
+Ways to make radio disabled:
+
+1. Use `disabled="disabled"` to `input`
+2. Or add class `isDisabled` to parent
+
 <section class="ui-section">
+  <form>
+    <div class="ui-input-group">
+      <div class="ui-radio isDisabled">
+        <input id="radio-diz2" type="radio" disabled="disabled" checked />
+        <label for="radio-diz2">Disabled and checked</label>
+      </div>
+      <div class="ui-radio">
+        <input id="radio-diz3" disabled="disabled" type="radio" />
+        <label for="radio-diz3">Disabled by default</label>
+      </div>
+      <div class="ui-radio isDisabled">
+        <input id="radio-diz5" type="radio" />
+        <label for="radio-diz5">Disabled by parent class</label>
+      </div>
+    </div>
+  </form>
+</section>
+
+```html
+<form>
   <div class="ui-input-group">
     <div class="ui-radio isDisabled">
       <input id="radio-diz2" type="radio" disabled="disabled" checked />
@@ -62,40 +91,12 @@ Empty label and horizontal style
     </div>
     <div class="ui-radio">
       <input id="radio-diz3" disabled="disabled" type="radio" />
-      <label for="radio-diz3">Disabled by <code>disabled="disabled"</code></label>
-    </div>
-    <div class="ui-radio">
-      <input id="radio-diz4" class="isDisabled" type="radio" />
-      <label for="radio-diz4">Disabled by <b>input class</b> <code>isDisabled</code></label>
+      <label for="radio-diz3">Disabled by default</label>
     </div>
     <div class="ui-radio isDisabled">
       <input id="radio-diz5" type="radio" />
-      <label for="radio-diz5">Disabled by <b>parent class</b> <code>isDisabled</code></label>
+      <label for="radio-diz5">Disabled by parent class</label>
     </div>
   </div>
-</section>
-
-```html
-<div class="ui-input-group">
-  <div class="ui-radio">
-    <input id="radio-diz1" type="radio" checked />
-    <label for="radio-diz1">Default radio</label>
-  </div>
-  <div class="ui-radio isDisabled">
-    <input id="radio-diz2" type="radio" disabled="disabled" checked />
-    <label for="radio-diz2">Disabled and checked</label>
-  </div>
-  <div class="ui-radio">
-    <input id="radio-diz3" disabled="disabled" type="radio" />
-    <label for="radio-diz3">Disabled by <code>disabled="disabled"</code></label>
-  </div>
-  <div class="ui-radio">
-    <input id="radio-diz4" class="isDisabled" type="radio" />
-    <label for="radio-diz4">Disabled by <b>input class</b> <code>isDisabled</code></label>
-  </div>
-  <div class="ui-radio isDisabled">
-    <input id="radio-diz5" type="radio" />
-    <label for="radio-diz5">Disabled by <b>parent class</b> <code>isDisabled</code></label>
-  </div>
-</div>
+</form>
 ```

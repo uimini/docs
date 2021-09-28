@@ -1,9 +1,11 @@
 # Switch
 
+Switching selector for represent the switching between two states or on-off state.
+
 ## Default Switch
 
 <section class="ui-section">
-  <form style="max-width: 400px;">
+  <form>
     <div class="ui-input-group">
       <div class="ui-switch">
         <input type="checkbox" id="switch-Xf1" />
@@ -18,7 +20,7 @@
 </section>
 
 ```html
-<form style="max-width: 400px;">
+<form>
   <div class="ui-input-group">
     <div class="ui-switch">
       <input type="checkbox" id="switch-Xf1" />
@@ -32,27 +34,107 @@
 </form>
 ```
 
-## Disabled Status
+## Empty switch
+
+Empty label and horizontal style
 
 <section class="ui-section">
-  <form style="max-width: 400px;">
-    <div class="ui-input-group">
-      <div class="ui-switch isDisabled">
-        <input type="checkbox" id="switch-dis1" checked />
-        <label for="switch-dis1">Switch disabled</label>
+  <form>
+    <div class="ui-input-group isHorizontal">
+      <div class="ui-switch">
+        <input type="checkbox" id="switch-Qx1" />
+        <!-- empty -->
+        <label for="switch-Qx1"></label>
       </div>
       <div class="ui-switch">
-        <input type="checkbox" id="switch-dis2" class="isDisabled" />
-        <label for="switch-dis2">Switch disabled</label>
+        <input type="checkbox" id="switch-Qx2" />
+        <!-- empty -->
+        <label for="switch-Qx2"></label>
       </div>
       <div class="ui-switch">
-        <input type="checkbox" id="switch-dis3" disabled="disabled" />
-        <label for="switch-dis3">Switch disabled</label>
+        <input type="checkbox" id="switch-Qx3" />
+        <!-- empty -->
+        <label for="switch-Qx3"></label>
+      </div>
+      <div class="ui-switch">
+        <input type="checkbox" id="switch-Qx4" />
+        <!-- empty -->
+        <label for="switch-Qx4"></label>
       </div>
     </div>
   </form>
 </section>
 
 ```html
-todo
+<form>
+  <div class="ui-input-group isHorizontal">
+    <div class="ui-switch">
+      <input type="checkbox" id="switch-Qx1" />
+      <!-- empty -->
+      <label for="switch-Qx1"></label>
+    </div>
+    <div class="ui-switch">
+      <input type="checkbox" id="switch-Qx2" />
+      <!-- empty -->
+      <label for="switch-Qx2"></label>
+    </div>
+    <div class="ui-switch">
+      <input type="checkbox" id="switch-Qx3" />
+      <!-- empty -->
+      <label for="switch-Qx3"></label>
+    </div>
+    <div class="ui-switch">
+      <input type="checkbox" id="switch-Qx4" />
+      <!-- empty -->
+      <label for="switch-Qx4"></label>
+    </div>
+  </div>
+</form>
+```
+
+## Disabled Status
+
+Disabled switch.
+
+Ways to switch radio disabled:
+
+1. Use `disabled="disabled"` to `input`
+2. Or add class `isDisabled` to parent
+
+<section class="ui-section">
+  <form>
+    <div class="ui-input-group">
+      <div class="ui-switch">
+        <input type="checkbox" id="switch-DA1" disabled="disabled" checked />
+        <label for="switch-DA1">Disabled and checked</label>
+      </div>
+      <div class="ui-switch">
+        <input type="checkbox" id="switch-DA2" disabled="disabled" />
+        <label for="switch-DA2">Disabled by default</label>
+      </div>
+      <div class="ui-switch isDisabled">
+        <input type="checkbox" id="switch-DA3" />
+        <label for="switch-DA3">Disabled by parent class</label>
+      </div>
+    </div>
+  </form>
+</section>
+
+```html
+<form>
+  <div class="ui-input-group">
+    <div class="ui-switch">
+      <input type="checkbox" id="switch-DA1" disabled="disabled" checked />
+      <label for="switch-DA1">Disabled and checked</label>
+    </div>
+    <div class="ui-switch">
+      <input type="checkbox" id="switch-DA2" disabled="disabled" />
+      <label for="switch-DA2">Disabled by default</label>
+    </div>
+    <div class="ui-switch isDisabled">
+      <input type="checkbox" id="switch-DA3" />
+      <label for="switch-DA3">Disabled by parent class</label>
+    </div>
+  </div>
+</form>
 ```

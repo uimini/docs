@@ -1,6 +1,6 @@
 # Input
 
-A basic component for getting the user input is a text field.
+A basic component for getting the user input is a text field. Used for user input in a form field is needed.
 
 ## Inputs list
 
@@ -125,8 +125,7 @@ Way to make disabled:
   <div class="ui-input-group">
     <div class="ui-input">
       <label for="input-DaX1">Disabled input by default</label>
-      <input id="input-DaX1" type="text" disabled="disabled" value="" placeholder="hello"
-      />
+      <input id="input-DaX1" type="text" disabled="disabled" value="" placeholder="hello" />
     </div>
     <div class="ui-input isDisabled">
       <label for="input-DaX2">Disabled input by parent class</label>
