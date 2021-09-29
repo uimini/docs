@@ -95,3 +95,47 @@ Size of title depends of size in `ui-html`. By default it's scale from `18px`.
 <p class="ui-title-4">Heading 4</p>
 <p class="ui-title-5">Heading 5</p>
 ```
+
+## Lists
+
+Ul and Ol lists for display data.
+
+### Ul list example:
+
+List with dot mark.
+
+<section class="ui-section">
+  <ul class="ui-ul">
+    <li>ul option 1</li>
+    <li>ul option 2</li>
+    <li>ul option 3</li>
+  </ul>
+</section>
+
+```html
+<ul class="ui-ul">
+  <li>ul option 1</li>
+  <li>ul option 2</li>
+  <li>ul option 3</li>
+</ul>
+```
+
+### Ol list example:
+
+List with number mark.
+
+<section class="ui-section">
+  <ol class="ui-ol">
+    <li>ol option 1</li>
+    <li>ol option 2</li>
+    <li>ol option 3</li>
+  </ol>
+</section>
+
+```html
+<ol class="ol-ul">
+  <li>ol option 1</li>
+  <li>ol option 2</li>
+  <li>ol option 3</li>
+</ol>
+```
