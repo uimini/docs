@@ -72,7 +72,7 @@ module.exports = {
         {
           title: 'Components',
           collapsable: false,
-          children: ['button', 'button-group', 'card', 'table']
+          children: ['button', 'button-group', 'tag', 'card', 'table']
         },
 
         {
