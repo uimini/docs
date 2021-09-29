@@ -66,7 +66,7 @@ module.exports = {
         {
           title: 'Design',
           collapsable: false,
-          children: ['colors', 'layout', 'typography'] // todo: dark-mode, themes
+          children: ['layout', 'colors', 'typography'] // todo: dark-mode, themes
         },
         // todo: typography as other section
         {
