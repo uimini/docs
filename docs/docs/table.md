@@ -4,7 +4,11 @@ pageClass: ui-body
 
 # Table
 
+Table component for displays rows of data.
+
 ## Default Table
+
+Table without any hover.
 
 <section class="ui-section">
   <table class="ui-table">
@@ -77,7 +81,7 @@ pageClass: ui-body
 
 ## Hover Table
 
-`
+Table with hover effect.
 
 <section class="ui-section">
   <table class="ui-table isHover">
