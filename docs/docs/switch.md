@@ -1,3 +1,7 @@
+---
+pageClass: ui-body
+---
+
 # Switch
 
 Switching selector for represent the switching between two states or on-off state.

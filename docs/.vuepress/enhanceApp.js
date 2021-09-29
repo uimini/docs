@@ -1,3 +1,6 @@
+// helpers for doc
+import './styles/helpers'
+
 // generated from main repo
 import './styles/uimini.css'
 

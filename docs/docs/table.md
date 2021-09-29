@@ -1,8 +1,10 @@
+---
+pageClass: ui-body
+---
+
 # Table
 
 ## Default Table
-
-`
 
 <section class="ui-section">
   <table class="ui-table">

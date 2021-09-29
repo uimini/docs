@@ -1,3 +1,7 @@
+---
+pageClass: ui-body
+---
+
 # Checkbox
 
 Checkbox component for selecting some values from several options.

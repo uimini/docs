@@ -1,3 +1,7 @@
+---
+pageClass: ui-body
+---
+
 # Input group
 
 Group for inputs to control bar position (vertical / horizontal) and add margins

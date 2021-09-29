@@ -1,3 +1,7 @@
+---
+pageClass: ui-body
+---
+
 # Radio
 
 Radio to select a single state from multiple options.

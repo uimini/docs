@@ -1,3 +1,7 @@
+---
+pageClass: ui-body
+---
+
 # Input
 
 A basic component for getting the user input is a text field. Used for user input in a form field is needed.

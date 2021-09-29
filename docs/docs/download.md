@@ -1,3 +1,7 @@
+---
+pageClass: ui-body
+---
+
 # Download
 
 Learn where to download and how to compile the Uimini sources.

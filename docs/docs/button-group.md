@@ -1,3 +1,7 @@
+---
+pageClass: ui-body
+---
+
 # Button Group
 
 Descr

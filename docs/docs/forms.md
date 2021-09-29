@@ -1,1 +1,5 @@
+---
+pageClass: ui-body
+---
+
 todo

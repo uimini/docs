@@ -1,3 +1,7 @@
+---
+pageClass: ui-body
+---
+
 # Select
 
 To select value from some options. Used for dropdown menu to display some choices.

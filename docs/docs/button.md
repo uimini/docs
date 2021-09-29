@@ -1,3 +1,7 @@
+---
+pageClass: ui-body
+---
+
 # Button
 
 To trigger an operation.

@@ -1,3 +1,7 @@
+---
+pageClass: ui-body
+---
+
 # Introduction
 
 Get familiar with the basic setup and overview of Uimini

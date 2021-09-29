@@ -1,3 +1,7 @@
+---
+pageClass: ui-body
+---
+
 # Layout
 
 **Layouts is important** for uimini works correct.
