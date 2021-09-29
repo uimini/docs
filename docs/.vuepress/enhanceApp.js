@@ -2,7 +2,7 @@
 import './styles/helpers'
 
 // generated from main repo
-import './styles/uimini.css'
+import './styles/uimini_no_reset.css'
 
 export default ({
   // the version of Vue being used in the VuePress app

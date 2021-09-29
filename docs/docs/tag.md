@@ -6,7 +6,7 @@ pageClass: ui-body
 
 Use tag for markup or categorizing.
 
-## Basic tags
+## Basic
 
 For articles, cards, etc.
 
@@ -18,7 +18,9 @@ For articles, cards, etc.
   </div>
 </section>
 
-## Box tags
+## Box
+
+For categorizing, buttons, etc.
 
 <section class="ui-section">
   <div class="ui-button-group">
