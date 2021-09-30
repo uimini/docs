@@ -61,7 +61,7 @@ Uimini provide 8 types of button:
 </div>
 ```
 
-## Icons:
+## Use with icons:
 
 <section class="ui-section">
   <div class="ui-button-group">

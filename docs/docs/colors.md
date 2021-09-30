@@ -151,7 +151,7 @@ Primary, danger, success, and borders colors will change to `#f368e0`; `#00d2d3`
 
 ### View result
 
-Uimini will looks like:
+After palette was change view will looks like:
 
 <section class="ui-section">
   <!-- #1 -->

@@ -1,16 +1,22 @@
 ---
 home: true
 # heroImage: /hero.svg
-# tagline: Modern CSS framework based on Flexbox
-tagline: v2 version is coming!
-actionText: Go to uimini v1 →
-actionLink: /v1/index.html
+tagline: Uimini Modern and lightweight CSS framework
+actionText: Documentation →
+actionLink: /docs/quick-start
 features:
-- title: Minimal
-  details: Feature 1 Description
+- title: Css only
+  details: No JavaScript need it
 - title: Lightweight
-  details: Feature 2 Description
+  details: Only 4kb gzip
 - title: Responsive
-  details: Feature 3 Description
+  details: Full responsive
+- title: UI designed
+  details: Enterprise-class UI designed for web applications
+- title: Customization
+  details: Powerful theme customization in every detail;
+- title: Combine
+  details: Easy combine with any frameworks from Bootstrap.css to React.js
+
 footer: Uimini
 ---

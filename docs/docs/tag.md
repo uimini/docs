@@ -30,6 +30,18 @@ For categorizing, buttons, etc.
   </div>
 </section>
 
+## Use with icons:
+
+<section class="ui-section">
+  <div class="ui-button-group">
+    todo
+  </div>
+</section>
+
+```html
+todo
+```
+
 ## Active status
 
 For display active tag.
