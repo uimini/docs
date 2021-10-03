@@ -151,10 +151,7 @@ Add animation by `.isAnimated` class and background color for display animation.
 
 ```html
 <!-- animated card -->
-<div
-  class="ui-card isAnimated"
-  style="width: 20rem; background-color: #ffd3ce;"
->
+<div class="ui-card isAnimated" style="width: 20rem; background-color: #ffd3ce;">
   <div class="ui-card-body">
     <span class="ui-title-3">Some title</span>
     <p>Some quick example text to build on the card title</p>
@@ -173,7 +170,7 @@ Places an image without any helpers classes
   <div class="row">
     <!-- image card -->
     <div class="ui-card" style="width: 20rem;">
-      <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+      <svg class="bd-placeholder-img " width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
       <div class="ui-card-body">
         <span class="ui-title-3">Some title</span>
         <p>Some quick example text to build on the card title</p>
