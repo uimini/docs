@@ -103,7 +103,7 @@ Uimini builds by css vars that's make easy to change any colors.
 How to change colors platte:
 
 1. Change from `/src/theme/dark-theme.scss` (rebuild is required);
-2. Or change it by own css file or tag (without any builds) For example:
+2. Or change it by own css file or tag (without any builds). For example:
 
 ```html
 <html class="ui-html" lang="en">

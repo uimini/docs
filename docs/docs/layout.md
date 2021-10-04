@@ -6,9 +6,7 @@ pageClass: ui-body
 
 **Layouts is important** for uimini works correct.
 
-## Introduction:
-
-Required classes and main layouts.
+## Introduction
 
 Uimini provided classes for correct work with others frameworks.
 
@@ -42,6 +40,20 @@ Example:
 </body>
 ```
 
+## Responsive meta tag
+
+Uimini is developed mobile first. We optimize code for mobile devices first and then scale up components as necessary using CSS media queries.
+
+**Add the responsive viewport meta tag to your `<head>`** to ensure proper rendering and touch zooming for all devices:
+
+```html
+<head>
+  <!-- ... -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- ... -->
+</head>
+```
+
 ## Optionals classes
 
 Other optionals classes for make view of the page better:
@@ -51,7 +63,9 @@ Other optionals classes for make view of the page better:
 
 ## Default layout
 
-Default layout example.
+Be sure you put main classes: `ui-html` and `ui-body` in your template to have your pages set up with the latest design and development standards.
+
+Put it all together and your pages should look like this:
 
 <section class="ui-section">
   <div style="text-align: center; height: 80px; line-height: 80px; background-color: #b3c0d1;"><span>Header</span></div>
@@ -87,10 +101,7 @@ Default layout example.
 
 ## Section
 
-Sections for make space between blocks on the page. Use: `ui-section` for `div` or `section`
-
-<!-- todo rm -->
-<br />
+Sections for make space between blocks on the page. Use: `ui-section` for `div` or `section` tag.
 
 <section class="ui-section" style="text-align: center; background-color: #e9eef3;">
   <div class="ui-container">Example section #1</div>
@@ -127,3 +138,12 @@ Containers are a fundamental building block. For contain, pad, and align your co
   <p>container view</p>
 </div>
 ```
+
+## Reset (reboot)
+
+For improved cross-browser rendering, we use Reset by default to correct inconsistencies across browsers and devices while providing slightly more opinionated resets to common HTML elements.
+
+Inside css folder two types of uimini:
+
+1. `uimini.css` - reset included
+2. `uimini-no-reset.css` - Without reset styles (**Be careful cause with `no-reset` option inconsistencies across browsers and devices will works incorrect**)
