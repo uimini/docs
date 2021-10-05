@@ -47,7 +47,7 @@ Default example
     <div class="ui-input-group isHorizontal" style="margin-bottom: 0.8rem;">
       <div class="ui-input isRequired" style="max-width: 160px;">
         <label for="input-Lx1">Age</label>
-        <input id="input-Lx1" type="number" value="" placeholder="Enter age here" />
+        <input id="input-Lx1" type="number" value="32" placeholder="Enter age here" />
       </div>
       <div class="ui-input" style="width: 260px;">
         <label for="input-Lx2">Address</label>

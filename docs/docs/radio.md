@@ -29,6 +29,25 @@ Default example.
   </form>
 </section>
 
+```html
+<form>
+  <div class="ui-input-group">
+    <div class="ui-radio">
+      <input id="radio-aX1" type="radio" name="radio" />
+      <label for="radio-aX1">Radio 1</label>
+    </div>
+    <div class="ui-radio">
+      <input id="radio-aX2" type="radio" name="radio" checked />
+      <label for="radio-aX2">Radio 2</label>
+    </div>
+    <div class="ui-radio">
+      <input id="radio-aX3" type="radio" name="radio" />
+      <label for="radio-aX3">Radio 3</label>
+    </div>
+  </div>
+</form>
+```
+
 ## Empty label
 
 Empty label and horizontal style.
@@ -59,6 +78,23 @@ Empty label and horizontal style.
     </div>
   </form>
 </section>
+
+```html
+<form>
+  <div class="ui-input-group isHorizontal">
+    <div class="ui-radio">
+      <input id="radio-aQ1" type="radio" name="radio" checked/>
+      <!-- empty label -->
+      <label for="radio-aQ1"></label>
+    </div>
+    <div class="ui-radio">
+      <input id="radio-aQ2" type="radio" name="radio" />
+      <!-- empty label -->
+      <label for="radio-aQ2"></label>
+    </div>
+  </div>
+</form>
+```
 
 ## Disabled status
 

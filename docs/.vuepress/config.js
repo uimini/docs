@@ -51,7 +51,7 @@ module.exports = {
           },
           {
             text: 'v1',
-            link: '/v1/index.html'
+            link: 'https://uimini.github.io/docs/v1/get-started'
           }
         ]
       }

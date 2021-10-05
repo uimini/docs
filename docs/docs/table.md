@@ -83,6 +83,8 @@ Table without any hover.
 
 Table with hover effect.
 
+Same as above but with `isHover` class.
+
 <section class="ui-section">
   <table class="ui-table isHover">
     <thead>
@@ -128,26 +130,7 @@ Table with hover effect.
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>Tomas</td>
-      <td>Male</td>
-      <td>26</td>
-    </tr>
-    <tr>
-      <td>Jack</td>
-      <td>Male</td>
-      <td>22</td>
-    </tr>
-    <tr>
-      <td>Anne</td>
-      <td>Female</td>
-      <td>23</td>
-    </tr>
-    <tr>
-      <td>Jane</td>
-      <td>Female</td>
-      <td>19</td>
-    </tr>
+    <!-- ... -->
   </tbody>
 </table>
 ```

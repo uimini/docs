@@ -84,16 +84,6 @@ Empty label and horizontal style.
       <!-- empty -->
       <label for="switch-Qx2"></label>
     </div>
-    <div class="ui-switch">
-      <input type="checkbox" id="switch-Qx3" />
-      <!-- empty -->
-      <label for="switch-Qx3"></label>
-    </div>
-    <div class="ui-switch">
-      <input type="checkbox" id="switch-Qx4" />
-      <!-- empty -->
-      <label for="switch-Qx4"></label>
-    </div>
   </div>
 </form>
 ```
