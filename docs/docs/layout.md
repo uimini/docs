@@ -146,4 +146,4 @@ For improved cross-browser rendering, we use Reset by default to correct inconsi
 Inside css folder two types of uimini:
 
 1. `uimini.css` - reset included
-2. `uimini-no-reset.css` - Without reset styles (**Be careful cause with `no-reset` option inconsistencies across browsers and devices will works incorrect**)
+2. `uimini_no_reset.css` - Without reset styles (**Be careful cause with `no_reset` option inconsistencies across browsers and devices will works incorrect**)

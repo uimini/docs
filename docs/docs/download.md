@@ -16,6 +16,10 @@ This option doesn’t include documentation, source files, or any optional JavaS
 
 <a class="ui-button isPrimary" href="#">Download source</a> -->
 
+## CDN
+
+Not available yet. We need to have [100+ start on github](https://github.com/uimini/uimini) for start to use CDN. Help us to make it :)
+
 ## Download source
 
 Compile Uimini with your own asset pipeline by downloading our source Sass. For download last realize with all new feature [click here](https://github.com/uimini/uimini/archive/master.zip) or follow button bellow.
@@ -50,20 +54,25 @@ After installation via npm or yarn pull in Uimini source or dist files into near
 
 #### Example for webpack
 
-put import from dist inside main entry of webpack (usually it's `app.js`):
+Put import from `node_modules` inside main entry of webpack (usually it's `app.js`):
 
 ```js
-// import uimini from node_modules
-import 'uimini/dist/uimini.css'
+// Default import uimini:
+// will be same as `uimini/dist/uimini.css`
+import 'uimini'
 
-// or imports scss core file
-import 'uimini/scr/scss/utils/reset.scss'
-import 'uimini/scr/scss/uimini.scss'
+// Or import specific file:
+import 'uimini/dist/uimini.css'
+import 'uimini/dist/uimini_no_reset.css' // Not recommended. Cause inconsistencies across browsers / devices will works incorrect
+
+// Or imports scss core files:
+import 'uimini/scr/scss/utils/reset.scss' // reset
+import 'uimini/scr/scss/uimini.scss' // core of uimini
 ```
 
 ## Build From Source
 
-Optionally, you can build UImini from [source on Github](https://github.com/uimini/uimini). To do this, you'll need to have [Node.js and npm installed](https://nodejs.org/en/download/).
+Optionally, you can build Uimini from [source on Github](https://github.com/uimini/uimini). To do this, you'll need to have [Node.js and npm installed](https://nodejs.org/en/download/).
 
 Build From Source with npm:
 
@@ -88,12 +97,12 @@ Since 2020 uimini v1 is not supported. But if you still want to use first versio
 
 - Install **Uimini v1** in your via yarn or npm:
 
-    ```bash
-    # with npm
-    npm install uimini@1.1.3
+  ```bash
+  # with npm
+  npm install uimini@1.1.3
 
-    # with yarn
-    yarn add uimini@1.1.3
+  # with yarn
+  yarn add uimini@1.1.3
   ```
 
 - Or install by download **last realize of uimini v1**:

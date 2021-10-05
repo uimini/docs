@@ -20,7 +20,7 @@ Content:
 uimini/
 ├── dist/
 │   ├── uimini.css
-│   ├── uimini-no-reset.css
+│   ├── uimini_no_reset.css
 ├── src/
 │   ├── scss-source
 ```
