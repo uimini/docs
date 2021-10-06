@@ -53,11 +53,11 @@ Uimini provide 8 types of button:
 
 ```html
 <div class="ui-button-group">
-  <button class="ui-button isDefault">Default</button>
-  <button class="ui-button isPrimary">Primary</button>
-  <button class="ui-button isSuccess">Success</button>
-  <button class="ui-button isWarning">Warning</button>
-  <button class="ui-button isDangerous">Dangerous</button>
+  <button class="ui-button isOutline isDefault">Default</button>
+  <button class="ui-button isOutline isPrimary">Primary</button>
+  <button class="ui-button isOutline isSuccess">Success</button>
+  <button class="ui-button isOutline isWarning">Warning</button>
+  <button class="ui-button isOutline isDangerous">Dangerous</button>
 </div>
 ```
 

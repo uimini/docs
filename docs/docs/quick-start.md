@@ -25,7 +25,7 @@ uimini/
 │   ├── scss-source
 ```
 
-Using a package manager or need to download the source files? Head to the [downloads page](https://uimini.github.io/docs/docs/download.html).
+Using a package manager or need to download the source files? Head to the [downloads page](/docs/download.html).
 
 ## Starter template
 
@@ -48,7 +48,7 @@ Put it all together and your pages should look like this:
     <title>Hello, world!</title>
   </head>
   <!-- Required class `ui-body` -->
-  <body class="ui-html">
+  <body class="ui-body">
     <h1 class="ui-title-1">Hello, world!</h1>
   </body>
 </html>

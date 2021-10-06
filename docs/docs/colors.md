@@ -59,20 +59,16 @@ Neutral colors are for text, background and border colors. You can use different
       <p>Base Border</p>
       <p>#cccccc</p>
     </div>
-      <div class="color__item" style="background-color: var(--ui-g-100); color: var(--ui-g-999);">
+    <div class="color__item" style="background-color: var(--ui-g-100); color: var(--ui-g-999);">
       <p>Light Border</p>
       <p>#f5f5f5</p>
-    </div>
-      <div class="color__item" style="background-color: var(--ui-g-50); color: var(--ui-g-999);">
-      <p>Lighter Border</p>
-      <p>#fafafa</p>
     </div>
   </div>
 </section>
 
 ## Scss
 
-Default theme palette from `/src/theme/dark-theme.scss`
+Default theme palette from `/src/theme/default-theme.scss`.
 
 ```css
 .ui-body {

@@ -59,14 +59,14 @@ module.exports = {
     sidebar: {
       '/docs/': [
         {
-          title: 'Getting Started', // todo to Introduction or uimini
+          title: 'Uimini',
           collapsable: false,
-          children: ['', 'download', 'quick-start'] // Introduction? , Getting Started, 'download', 'quick-start', cases
+          children: ['', 'quick-start', 'download']
         },
         {
           title: 'Design',
           collapsable: false,
-          children: ['layout', 'colors', 'typography'] // todo: dark-mode, themes
+          children: ['layout', 'colors', 'dark-mode', 'typography'] // todo: dark-mode, themes
         },
         // todo: typography as other section
         {

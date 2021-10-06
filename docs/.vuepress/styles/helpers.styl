@@ -1,3 +1,7 @@
+// helper for heading
+.sidebar-heading span
+  color black !important
+
 // list for color box
 .color-list
   display flex
@@ -49,3 +53,20 @@
   font-size 1.2rem
   text-anchor middle
   user-select none
+
+// for display dark-mode page is correct
+.ui-body
+  &.isDark
+    p
+      a
+        color var(--ui-primary-color)
+        text-decoration: underline;
+    h2
+      border-bottom-color var(--ui-g-100)
+    .page-nav a
+      color var(--ui-g-999)
+    .page-edit .edit-link a
+      color var(--ui-g-900)
+    code, pre
+      color var(--ui-g-950)
+      background-color var(--ui-g-200)

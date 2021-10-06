@@ -48,13 +48,11 @@ Install Uimini in your Node.js with [the yarn package](https://classic.yarnpkg.c
 yarn add uimini
 ```
 
-### Connect Uimini
+### Usage Uimini
 
 After installation via npm or yarn pull in Uimini source or dist files into nearly any project with `imports` or `required` (depend of package manager).
 
-#### Example for webpack
-
-Put import from `node_modules` inside main entry of webpack (usually it's `app.js`):
+**With webpack**: make import of uimini from `node_modules` inside main entry of webpack (usually it's `app.js` or `index.js`):
 
 ```js
 // Default import uimini:
@@ -110,7 +108,7 @@ Since 2020 uimini v1 is not supported. But if you still want to use first versio
   1. Uimini v1 with webpack [link to realize is here](https://github.com/uimini/uimini/releases/tag/v1) or just [download directly zip file](https://github.com/uimini/uimini/archive/refs/tags/v1.zip)
   2. Uimini v1 with gulp [link to realize is here](https://github.com/uimini/uimini/releases/tag/1.1.3) or just [download directly zip file](https://github.com/uimini/uimini/archive/refs/tags/1.1.3.zip)
 
-- Or **build uimini v1 from source** by follow [v1 branch in github](https://github.com/uimini/uimini/tree/v1-stable)
+- Or **build uimini v1 from source** for this option follow [v1 branch in github](https://github.com/uimini/uimini/tree/v1-stable)
 
 Additional links for uimini v1:
 
