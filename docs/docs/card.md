@@ -185,7 +185,7 @@ Places an image without any helpers classes
 ```html
 <!-- image card -->
 <div class="ui-card" style="width: 20rem;">
-  <img src="..." class="card-img-top" alt="..." />
+  <img src="..." alt="..." />
   <div class="ui-card-body">
     <span class="ui-title-3">Some title</span>
     <p>Some quick example text to build on the card title</p>
