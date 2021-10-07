@@ -1,8 +1,9 @@
 ---
 home: true
 # heroImage: /hero.svg
-tagline: Uimini Modern and lightweight CSS framework
-actionText: Documentation →
+heroText: Uimini
+tagline: Uimini modern and lightweight CSS framework
+actionText: Quick start →
 actionLink: /docs/quick-start
 features:
 - title: Css only
@@ -18,5 +19,5 @@ features:
 - title: Combine
   details: Easy combine with any frameworks from Bootstrap.css to React.js
 
-footer: Uimini
+footer: MIT Licensed | Copyright © 2018-present Evgenii Vedegis
 ---

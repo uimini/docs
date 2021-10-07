@@ -8,7 +8,7 @@ Dark mode is a theme where all UI elements are darkened. Recommended when you ar
 
 ## Demo
 
-Check demo with dark-mode switcher [https://github.com/uimini/example-dark-mode](https://github.com/uimini/example-dark-mode)
+Check demo with dark-mode switcher [https://uimini.github.io/example-dark-mode/dist/](https://uimini.github.io/example-dark-mode/dist/)
 
 ## Usage
 
@@ -36,7 +36,7 @@ theme_toggler.addEventListener('click', function() {
 })
 ```
 
-Check [this demo](https://github.com/uimini/example-dark-mode) to show all components with dark-mode.
+Check [this demo](https://uimini.github.io/example-dark-mode/dist/) to show all components with dark-mode or [download demo source](https://github.com/uimini/example-dark-mode) from github
 
 ## Main colors
 
