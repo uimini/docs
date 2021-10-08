@@ -6,10 +6,10 @@
       <meta http-equiv="X-UA-Compatible" content="IE = edge, chrome = 1"
     /><![endif]-->
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Documetation for Minimal-ui CSS framework based on Flexbox</title>
+    <title>Uimini v1 Minimal CSS framework based on Flexbox and stylus</title>
     <meta
       name="description"
-      content="FULL Documetation Minimal-ui.css is a modern responsive CSS framework based on Flexbox. Full responsive and available for free"
+      content="Uimini v1 Minimal CSS framework. Modern framework based on Flexbox and stylus. Full responsive and available for free"
     />
     <link
       rel="stylesheet"
@@ -23,15 +23,26 @@
       <header>
         <div class="navbar navbar-fixed">
           <div class="container">
-            <div class="navbar-content"><a class="header-logo" href="/docs/v1">Uimini</a>
-              <div class="button-burger"><span class="line line-1"></span><span class="line line-2"></span><span class="line line-3"></span></div>
+            <div class="navbar-content">
+              <a class="header-logo" href="/docs/v1">Uimini</a>
+              <div class="button-burger">
+                <span class="line line-1"></span
+                ><span class="line line-2"></span
+                ><span class="line line-3"></span>
+              </div>
               <div class="navbar-list__wrapper">
                 <ul class="navbar-list">
-                  <li class="navbar-item"><a class="navbar-link" href="get-started">Documetation</a></li>
+                  <li class="navbar-item">
+                    <a class="navbar-link" href="get-started">Documetation</a>
+                  </li>
 
-<li class="navbar-item"><a class="navbar-link" href="/docs/">Try new version</a></li>
-                  <li class="navbar-item"><a class="navbar-link" href="changelog">Changelog</a></li>
-                  <li class="navbar-item"><a class="navbar-link" href="get-started">Download</a></li>
+                  <li class="navbar-item">
+                    <a class="navbar-link" href="/docs/"
+                      ><b>Try new version</b></a
+                    >
+                  </li>
+                  <!-- <li class="navbar-item"><a class="navbar-link" href="get-started">Documetation</a></li> -->
+                  <!-- <li class="navbar-item"><a class="navbar-link" href="get-started">Download</a></li> -->
                 </ul>
               </div>
             </div>
@@ -147,14 +158,14 @@
         <section id="head">
           <div class="container">
             <div class="content-docs_header">
-              <h1 class="ui-title-1">Introduction</h1>
-              <span class="docs-descr"
-                >Get familiar with the basic setup and overview of Uimini</span
-              ><a
-                class="button button-primary"
-                href="https://uimini.vedees.ru/uimini.zip"
-                >Download</a
-              >
+              <h1 class="ui-title-1">Introduction Uimini v1</h1>
+              <p class="docs-descr">
+                Get familiar with the basic setup and overview of Uimini.
+              </p>
+              <p class="docs-descr">
+                <b>Since 2020 uimini v1 is not supported</b>. But if you still
+                want to use first version follow one of this options:
+              </p>
             </div>
           </div>
         </section>
@@ -218,45 +229,56 @@
           <div class="container">
             <div class="content-docs_header">
               <h2 class="ui-title-1">Installation (source)</h2>
-              <span class="docs-descr"
-                >Learn where to download and how to compile the Uimini
-                sources.</span
-              >
+              <p class="docs-descr"></p>
+                Learn where to download and how to compile the Uimini sources.
+              </p>
+              <p class="docs-descr">
+                <b>Since 2020 uimini v1 is not supported</b>. But if you still
+                want to use first version follow one of this options:
+              </p>
+              <p class="docs-descr">
+                Stable v1 available on github branch: <a
+                  href="https://github.com/uimini/uimini/tree/v1-stable"
+                  style="color: #444ce0"
+                  target="_blank"
+                  >
+                  https://github.com/uimini/uimini/tree/v1-stable
+                </a>
+              </p>
             </div>
             <div class="content-docs_header">
-              <h2 class="ui-title-3">Download latest release</h2>
+              <h2 class="ui-title-3">Download stable realize of v1</h2>
               <span class="docs-descr"
-                >Learn where to download and how to compile the Uimini
-                sources.</span
-              ><span class="docs-descr"
-                ><a
+                >Learn where to download and how to compile the
+                <b>Uimini v1</b> sources.</span
+              >
+              <span class="docs-descr">
+                <a
+                  href="https://github.com/uimini/uimini/releases/tag/v1"
+                  style="color: #444ce0"
+                  target="_blank"
+                  >
+                  v1 release builded with webpack
+                </a>
+              </span>
+              <span class="docs-descr">
+                <a
                   href="https://github.com/vedees/uimini/releases/latest"
                   style="color: #444ce0"
                   target="_blank"
-                  >Latest release</a
-                ></span
-              ><span class="docs-descr"
-                ><a
-                  class="button button-primary"
-                  href="https://github.com/vedees/uimini/archive/master.zip"
-                  target="_blank"
-                  >Download (source)</a
-                ></span
-              >
+                  >
+                  v1 release builded with gulp
+                </a>
+                (required node.js 11v) cause gulp is broken with node.js 12v+
+              </span>
             </div>
 
             <h2 class="ui-title-3">NPM</h2>
-            <pre>
-  <code >
-npm install uimini
-    </code>
-</pre>
+            <pre><code>
+npm install uimini@1.1.3</code></pre>
             <h2 class="ui-title-3">Yarn</h2>
-            <pre>
-  <code >
-yarn add uimini
-    </code>
-</pre>
+            <pre><code>
+yarn add uimini@1.1.3</code></pre>
             <h2 class="ui-title-3">Build From Source</h2>
             <p>
               Optionally, you can build Uimini from its source on Github. To do
@@ -267,6 +289,9 @@ yarn add uimini
   <code >
 git clone https://github.com/vedees/uimini.git
 cd uimini
+# switch to v1 branch!!!
+git checkout v1-stable
+# install and run server
 npm install
 npm start
     </code>
@@ -281,7 +306,7 @@ npm start
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/stylus.min.js"></script>
     <script>
-      hljs.initHighlightingOnLoad();
+      hljs.initHighlightingOnLoad()
     </script>
     <script src="static/js/uimini.min.js"></script>
   </body>
