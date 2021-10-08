@@ -26,7 +26,11 @@ Compile Uimini with your own asset pipeline by downloading our source Sass. For 
 
 You can also choice specific realize if you need in [realizes page](https://github.com/uimini/uimini/realizes). All realizes are stable.
 
-<a class="ui-button isPrimary" href="https://github.com/uimini/uimini/archive/master.zip">Download source</a>
+<a href="https://github.com/uimini/uimini/archive/master.zip">
+  <div class="ui-button isPrimary">
+    Download source
+  </div>
+</a>
 
 ## Package managers
 
