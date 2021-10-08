@@ -42,11 +42,11 @@ module.exports = {
     repo: repos.uimini,
     repoLabel: 'Github',
     docsRepo: repos.docs,
-    docsBranch: 'master',
+    docsBranch: 'main',
     editLinks: true,
     editLinkText: 'Help us improve this page!',
-    docsDir: '',
-    lastUpdated: false,
+    docsDir: 'docs',
+    // lastUpdated: true,
     nav: [
       {
         text: 'Docs',

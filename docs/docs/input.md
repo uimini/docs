@@ -85,27 +85,17 @@ Disabled input.
 
 Way to make disabled:
 
-1. Use `disabled="disabled"` for `<input />`;
-2. Or add class `isRequired` to parent.
+1. Use `disabled="disabled"` for `<input />`.
 
 <section class="ui-section">
   <form style="max-width: 400px;">
     <div class="ui-input-group">
       <div class="ui-input">
-        <label for="input-DaX1">Disabled input by default</label>
+        <label for="input-DaX1">Disabled input</label>
         <input
           id="input-DaX1"
           type="text"
           disabled="disabled"
-          value=""
-          placeholder="hello"
-        />
-      </div>
-      <div class="ui-input isDisabled">
-        <label for="input-DaX2">Disabled input by parent class</label>
-        <input
-          id="input-DaX2"
-          type="text"
           value=""
           placeholder="hello"
         />
