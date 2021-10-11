@@ -1,6 +1,9 @@
 html, body
   font-family Montserrat,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol
 
+a:hover
+  text-decoration none!important
+
 .home .hero
   margin-top 2.5rem
   display flex
@@ -18,6 +21,10 @@ pre, pre[class*="language-"],
 div[class*="language-"]
   background-color #252971
 
+// nav
+.nav-links .nav-item .nav-link span
+  display none
+
 .nav-dropdown .dropdown-item
   &:first-child
     cursor default
@@ -27,3 +34,4 @@ div[class*="language-"]
       cursor default
       pointer-events none
       color: var(--ui-primary-color)
+

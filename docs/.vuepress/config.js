@@ -1,10 +1,11 @@
 const path = require('path')
 
+const { description, version } = require('../../package')
+
 const repos = {
   uimini: 'https://github.com/uimini/uimini',
   docs: 'https://github.com/uimini/docs'
 }
-const { description } = require('../../package')
 
 module.exports = {
   title: 'Uimini',
@@ -75,7 +76,11 @@ module.exports = {
             link: 'https://uimini.github.io/docs/v1/get-started'
           }
         ]
-      }
+      },
+      {
+        text: 'Download',
+        link: `https://uimini.github.io/docs/download/uimini-${version}.zip`
+      },
     ],
     sidebar: {
       '/docs/': [

@@ -6,25 +6,6 @@ pageClass: ui-body
 
 List of who’s using Uimini. Check out how people using Uimini to design fast and clean apps and websites.
 
-<div class="row">
-  <div class="ui-card" style="width: 20rem;">
-    <img src="/showcases/e-dark-mode.png" />
-    <div class="ui-card-body">
-      <span class="ui-title-4">Dark-mode example</span>
-      <p>This page is example of components with dark-mode. Build with Uimini 2.0.4</p>
-      <a href="https://uimini.github.io/example-dark-mode/dist/" class="ui-link">Go to website</a>
-    </div>
-  </div>
-  <div class="ui-card" style="width: 20rem;">
-    <img src="/showcases/e-landing-skeleton.png" />
-    <div class="ui-card-body">
-      <span class="ui-title-4">Landing Skeleton</span>
-      <p>Landing page skeleton for demo of layout. Build with Uimini 2.0.2</p>
-      <a href="https://uimini.github.io/example-landing/dist/" class="ui-link">Go to website</a>
-    </div>
-  </div>
-</div>
-
 ## Share your project
 
 Did you design a fast and clean website with Uimini too? Share your project and we will keep it here!
@@ -35,3 +16,24 @@ Did you design a fast and clean website with Uimini too? Share your project and 
     Share your project
   </div>
 </a>
+
+<section class="ui-section">
+  <div class="row">
+    <div class="ui-card" style="width: 20rem;">
+      <img src="/showcases/e-dark-mode.png" />
+      <div class="ui-card-body">
+        <span class="ui-title-4">Dark-mode example</span>
+        <p>This page is example of components with dark-mode. Build with Uimini 2.0.4</p>
+        <a href="https://uimini.github.io/example-dark-mode/dist/" class="ui-link">Go to website</a>
+      </div>
+    </div>
+    <div class="ui-card" style="width: 20rem;">
+      <img src="/showcases/e-landing-skeleton.png" />
+      <div class="ui-card-body">
+        <span class="ui-title-4">Landing Skeleton</span>
+        <p>Landing page skeleton for demo of layout. Build with Uimini 2.0.2</p>
+        <a href="https://uimini.github.io/example-landing/dist/" class="ui-link">Go to website</a>
+      </div>
+    </div>
+  </div>
+</section>

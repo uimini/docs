@@ -74,15 +74,24 @@ Uimini provide 8 types of button:
       <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" style="margin-right: 6px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
       Download
     </button>
+    <!-- head by arrow -->
+    <button class="ui-button isPrimary">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+    </button>
+    <!-- head by arrow with text -->
+    <button class="ui-button isPrimary">
+      Head to somewhere
+      <svg xmlns="http://www.w3.org/2000/svg" style="margin-left: 6px;" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+    </button>
     <!-- button icon with text -->
     <button class="ui-button isDangerous">
       <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" style="margin-right: 6px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
       Remove
     </button>
     <!-- button icon with text -->
-    <button class="ui-button isSuccess">
+    <button class="ui-button isLink">
       <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" style="margin-right: 6px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
-      Send
+      Link to send
     </button>
   </div>
 </section>

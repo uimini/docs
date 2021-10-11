@@ -1,6 +1,6 @@
 {
   "name": "uimini-doc",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Uimini is a modern CSS framework! Lightweight just 4kb gzip; full responsive and available for free!",
   "main": "index.js",
   "scripts": {

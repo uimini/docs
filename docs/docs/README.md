@@ -33,7 +33,13 @@ You can subscribe to this feed for new version notifications: [here](https://git
 
 Also you can check any realizes [on github](https://github.com/uimini/uimini/releases)
 
-## Installation
+## What's next
+
+- Get started with Uimini framework! Head to the [Quick start page](/docs/quick-start)
+- Do you need CDN ot download the source files? Head to the [Download page](/docs/download)
+- Find more examples in [Showcase page](http://localhost:8080/docs/docs/showcase.html)
+
+<!-- ## Installation
 
 We recommend using npm or yarn to install, it not only makes development easier, but also allow you to take advantage of the rich ecosystem of Javascript packages and tooling.
 
@@ -56,4 +62,4 @@ Do you need CDN ot download the source files? Head to the [downloads page](/docs
 import 'uimini'
 ```
 
-See more on [quick start page](/docs/quick-start.html).
+See more on [quick start page](/docs/quick-start.html). -->

@@ -49,7 +49,7 @@ Uimini is developed mobile first. We optimize code for mobile devices first and 
 ```html
 <head>
   <!-- ... -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- ... -->
 </head>
 ```
@@ -138,12 +138,3 @@ Containers are a fundamental building block. For contain, pad, and align your co
   <p>container view</p>
 </div>
 ```
-
-## Reset (reboot)
-
-For improved cross-browser rendering, we use Reset by default to correct inconsistencies across browsers and devices while providing slightly more opinionated resets to common HTML elements.
-
-Inside css folder two types of uimini:
-
-1. `uimini.css` - reset included
-2. `uimini_no_reset.css` - Without reset styles (**Be careful cause with `no_reset` option inconsistencies across browsers and devices will works incorrect**)

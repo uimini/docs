@@ -6,28 +6,13 @@ pageClass: ui-body
 
 Get started with Uimini framework for building responsive sites and apps with source files and template starter page.
 
-## Download source
+## Compiled CSS
 
-Compile Uimini with your own asset pipeline by downloading our source Sass. For download last realize with all new feature [click here](https://github.com/uimini/uimini/archive/master.zip) or follow button bellow.
+Download ready-to-use compiled code for Uimini v2.0.5 to easily drop into your project
 
-You can also choice specific realize if you need in [realizes page](https://github.com/uimini/uimini/realizes). All realizes are stable.
+This doesn’t include configs, scss source file.
 
-<a href="https://github.com/uimini/uimini/archive/master.zip">
-  <div class="ui-button isPrimary">
-    Download source
-  </div>
-</a>
-
-Content:
-
-```bash
-uimini/
-├── dist/
-│   ├── uimini.css
-│   ├── uimini_no_reset.css
-├── src/
-│   ├── scss-source
-```
+<DownloadLink />
 
 Using a package manager or need to download the source files? Head to the [downloads page](/docs/download.html).
 
