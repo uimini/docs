@@ -6,40 +6,49 @@ pageClass: ui-body
 
 Get started with Uimini framework for building responsive sites and apps with source files and template starter page.
 
-## Compiled CSS
+## CDN
 
-Download ready-to-use compiled code for Uimini v2.0.5 to easily drop into your project
+Copy-paste the stylesheet `<link>` into your `<head>` before all other stylesheets to load our CSS:
 
-This doesn’t include configs, scss source file.
-
-<DownloadLink />
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uimini@2.0.6/dist/uimini.min.css" integrity="sha256-h8u2/mt0aoFKmyVNtIVA0u65MdOePGkIhenx9fW6n9E=" crossorigin="anonymous">
+```
 
 Using a package manager or need to download the source files? Head to the [downloads page](/docs/download.html).
 
 ## Starter template
 
-Be sure you put main classes: `ui-html` and `ui-body` in your template to have your pages set up with the latest design and development standards.
+**Be sure you put main classes: `ui-html` and `ui-body` in your template** to have your pages set up with the latest design and development standards.
 
-Put it all together and your pages should look like this:
+Put it all together and your pages should looks like this:
 
 ```html
 <!DOCTYPE html>
-<!-- Required class `ui-html` -->
 <html class="ui-html" lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Uimini CSS -->
-    <link href="./css/uimini.css" rel="stylesheet" />
+    <!-- cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uimini@2.0.6/dist/uimini.min.css" integrity="sha256-h8u2/mt0aoFKmyVNtIVA0u65MdOePGkIhenx9fW6n9E=" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Hello world!</title>
   </head>
-  <!-- Required class `ui-body` -->
+
   <body class="ui-body">
-    <h1 class="ui-title-1">Hello, world!</h1>
+    <header>header</header>
+
+    <div class="ui-content-wrapper">
+      <section class="section">
+        <div class="container">
+          <h1 class="ui-title-1">Hello world!</h1>
+        </div>
+      </section>
+    </div>
+
+    <footer>footer</footer>
   </body>
+
 </html>
 ```
 

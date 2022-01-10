@@ -12,6 +12,20 @@ Uimini provided classes for correct work with others frameworks.
 
 > This approach makes it easy to change or combine different frameworks in an application or a website.
 
+## Responsive meta tag
+
+Uimini is developed mobile first. We optimize code for mobile devices first and then scale up components as necessary using CSS media queries.
+
+**Add the responsive viewport meta tag to your `<head>`** to ensure proper rendering and touch zooming for all devices:
+
+```html
+<head>
+  <!-- ... -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- ... -->
+</head>
+```
+
 ## Html class
 
 First **required class** is `ui-html`.
@@ -40,20 +54,6 @@ Example:
 </body>
 ```
 
-## Responsive meta tag
-
-Uimini is developed mobile first. We optimize code for mobile devices first and then scale up components as necessary using CSS media queries.
-
-**Add the responsive viewport meta tag to your `<head>`** to ensure proper rendering and touch zooming for all devices:
-
-```html
-<head>
-  <!-- ... -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- ... -->
-</head>
-```
-
 ## Optionals classes
 
 Other optionals classes for make view of the page better:
@@ -75,27 +75,31 @@ Put it all together and your pages should look like this:
 
 ```html
 <!DOCTYPE html>
-
-<!-- class="ui-html" is required! -->
 <html class="ui-html" lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Uimini title</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uimini@2.0.6/dist/uimini.min.css" integrity="sha256-h8u2/mt0aoFKmyVNtIVA0u65MdOePGkIhenx9fW6n9E=" crossorigin="anonymous">
+
+    <title>Hello world!</title>
   </head>
-  <!-- class="ui-body" is required! -->
+
   <body class="ui-body">
-    <div class="ui-wrapper">
-      <header><!-- ... --></header>
+    <header>header</header>
 
-      <div class="ui-content-wrapper">
-        <!-- content is here -->
-      </div>
-
-      <footer><!-- ... --></footer>
+    <div class="ui-content-wrapper">
+      <section class="section">
+        <div class="container">
+          <h1 class="ui-title-1">Hello world!</h1>
+        </div>
+      </section>
     </div>
+
+    <footer>footer</footer>
   </body>
+
 </html>
 ```
 

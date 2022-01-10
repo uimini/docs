@@ -18,9 +18,13 @@ This option doesn’t include documentation, source files, or any optional JavaS
 
 ## CDN
 
-Not available yet. We need to have [100+ start on github](https://github.com/uimini/uimini) for start to use CDN. Help us to make it :)
+Copy-paste the stylesheet `<link>` into your `<head>` before all other stylesheets to load our CSS:
 
-## Compiled CSS
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uimini@2.0.6/dist/uimini.min.css" integrity="sha256-h8u2/mt0aoFKmyVNtIVA0u65MdOePGkIhenx9fW6n9E=" crossorigin="anonymous">
+```
+
+## Or compiled CSS
 
 Download ready-to-use compiled code for Uimini v2.0.5 to easily drop into your project
 
@@ -46,7 +50,7 @@ uimini/
 │   ├── uimini_no_reset.min.css
 ```
 
-## Download source
+## Or download source
 
 Compile Uimini with your own asset pipeline by downloading our source Sass. For download last realize with all new feature [click here](https://github.com/uimini/uimini/archive/master.zip) or follow button bellow.
 
@@ -66,17 +70,17 @@ uimini/
 │   ├── uimini.css
 │   ├── ...
 ├── src/
-│   ├── uimini.scss     # core import
-│   ├── core.scss       # core styles
-│   ├── builds/         # build options
-│   ├── components/     # buttons, inputs, etc
-│   ├── theme/          # theme config
-│   ├── typography/     # lists, title, etc
-│   ├── utils/          # vars, mixains, etc
+│   ├── builds/              # build options
+│   ├── components/          # buttons, inputs, etc
+│   ├── theme/               # theme config
+│   ├── typography/          # lists, title, etc
+│   ├── utils/               # vars, mixains, etc
+│   ├── uimini-core.scss     # core import
+│   ├── uimini-body.scss     # body styles
 
 ```
 
-## Package managers
+## Or use package managers
 
 Pull in Uimini source files into nearly any project with some of the most popular package managers like webpack or gulp.
 
@@ -107,14 +111,21 @@ After installation via npm or yarn pull in Uimini source or dist files into near
 // will be same as `uimini/dist/uimini.css`
 import 'uimini'
 
-// Or import specific file:
+// Or import specific css file:
 import 'uimini/dist/uimini.css'
 import 'uimini/dist/uimini_no_reset.css' // Not recommended. Cause inconsistencies across browsers / devices will works incorrect
 
-// Or imports scss core files:
-import 'uimini/scr/scss/utils/reset.scss' // reset
-import 'uimini/scr/scss/uimini.scss' // core of uimini
+// Or imports specific scss files:
+import 'uimini/src/utils/reset.scss' // reset
+import 'uimini/src/uimini-core.scss' // core of uimini
+
+// Or you can also import only components that you need (for less build size).
+// For example:
+import 'uimini/src/theme/default-theme.scss' // theme is required
+import 'uimini/src/components/button.scss'
 ```
+
+**Remember to use helpers classes: `.ui-html` and `.ui-body`** for better responsive and smooth scroll. Visit the [Layout docs](https://uimini.github.io/docs/docs/layout.html#introduction) for know more.
 
 ## Build From Source
 
@@ -136,33 +147,6 @@ git clone https://github.com/uimini/uimini.git
 cd uimini
 yarn && yarn start
 ```
-
-## Uimini v1
-
-**Since 2020 uimini v1 is not supported**. But if you still want to use first version follow one of this options:
-
-- Install **Uimini v1** in your project via yarn or npm:
-
-  ```bash
-  # with npm
-  npm install uimini@1.1.3
-
-  # with yarn
-  yarn add uimini@1.1.3
-  ```
-
-- Or install by download **last realize of uimini v1**:
-
-  - Uimini v1 with webpack [link to realize is here](https://github.com/uimini/uimini/releases/tag/v1) or just [download directly zip file](https://github.com/uimini/uimini/archive/refs/tags/v1.zip)
-  - Uimini v1 with gulp [link to realize is here](https://github.com/uimini/uimini/releases/tag/1.1.3) or just [download directly zip file](https://github.com/uimini/uimini/archive/refs/tags/1.1.3.zip)
-
-- Or **build uimini v1 from source** for this option follow [v1 branch in github](https://github.com/uimini/uimini/tree/v1-stable)
-
-Additional links for uimini v1:
-
-- Documentation page [is here](https://uimini.github.io/docs/v1/index.html);
-- Get started link [is here](https://uimini.github.io/docs/v1/get-started);
-- Github branch of Uimini v1 [is here](https://github.com/uimini/uimini/tree/v1-stable).
 
 ## Reset (reboot)
 
@@ -202,3 +186,30 @@ For example:
 3. When you using es6+ feature without bable and extra polyfills. Cause that's means you don't support old browsers then you don't need extra browser support.
 
 Summing up: if you using modern JavaScript (or modern css like grids) then you don't need uimini with extra browser support.
+
+## Uimini v1
+
+**Since 2020 uimini v1 is not supported**. But if you still want to use first version follow one of this options:
+
+- Install **Uimini v1** in your project via yarn or npm:
+
+  ```bash
+  # with npm
+  npm install uimini@1.1.3
+
+  # with yarn
+  yarn add uimini@1.1.3
+  ```
+
+- Or install by download **last realize of uimini v1**:
+
+  - Uimini v1 with webpack [link to realize is here](https://github.com/uimini/uimini/releases/tag/v1) or just [download directly zip file](https://github.com/uimini/uimini/archive/refs/tags/v1.zip)
+  - Uimini v1 with gulp [link to realize is here](https://github.com/uimini/uimini/releases/tag/1.1.3) or just [download directly zip file](https://github.com/uimini/uimini/archive/refs/tags/1.1.3.zip)
+
+- Or **build uimini v1 from source** for this option follow [v1 branch in github](https://github.com/uimini/uimini/tree/v1-stable)
+
+Additional links for uimini v1:
+
+- Documentation page [is here](https://uimini.github.io/docs/v1/index.html);
+- Get started link [is here](https://uimini.github.io/docs/v1/get-started);
+- Github branch of Uimini v1 [is here](https://github.com/uimini/uimini/tree/v1-stable).
