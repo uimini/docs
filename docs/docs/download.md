@@ -26,7 +26,7 @@ Copy-paste the stylesheet `<link>` into your `<head>` before all other styleshee
 
 ## Or compiled CSS
 
-Download ready-to-use compiled code for Uimini v2.0.5 to easily drop into your project
+Download ready-to-use compiled code for Uimini to easily drop into your project
 
 This doesn’t include configs, scss source file.
 
