@@ -46,51 +46,60 @@ Default card with different position
 
 Quickly change the text alignment of any card by add styles for parent class `ui-card`:
 
-- left `text-align: left` (by default)
-- center - `text-align: center`
-- right - `text-align: right`
+- `text-align: left` (by default)
+- `text-align: center`
+- `text-align: right`
 
 <section class="ui-section">
   <div class="row">
     <!-- default card -->
-    <div class="ui-card" style="width: 13rem;">
+    <div class="ui-card" style="width: 20rem;">
       <div class="ui-card-body">
-        <span class="ui-title-3">Some title</span>
-        <p>Some quick example text to build on the card title and make up
-        the bulk of the card's content</p>
-      </div>
-    </div>
-    <!-- center default card -->
-    <div class="ui-card" style="width: 13rem; text-align: center;">
-      <div class="ui-card-body">
-        <span class="ui-title-3">Some title</span>
+        <span class="ui-title-3">Align left</span>
         <p>Some quick example text to build on the card title and make up
         the bulk of the card's content</p>
       </div>
     </div>
     <!-- right default card -->
-    <div class="ui-card" style="width: 13rem; text-align: right;">
+    <div class="ui-card" style="width: 20rem; text-align: right;">
       <div class="ui-card-body">
-        <span class="ui-title-3">Some title</span>
+        <span class="ui-title-3">Align right</span>
         <p>Some quick example text to build on the card title and make up
         the bulk of the card's content</p>
         </div>
+      </div>
+    </div>
+    <!-- center default card -->
+    <div class="ui-card" style="width: 20rem; text-align: center;">
+      <div class="ui-card-body">
+        <span class="ui-title-3">Align center</span>
+        <p>Some quick example text to build on the card title and make up
+        the bulk of the card's content</p>
       </div>
     </div>
   </div>
 </section>
 
 ```html
-<!-- center default card -->
-<div class="ui-card" style="width: 13rem; text-align: center;">
+<!-- align center default card -->
+<div class="ui-card" style="width: 20rem; text-align: center;">
   <div class="ui-card-body">
     <span class="ui-title-3">Some title</span>
     <p>Some quick example text to build on the card title and make up
     the bulk of the card's content</p>
   </div>
 </div>
-<!-- right default card -->
-<div class="ui-card" style="width: 13rem; text-align: right;">
+<!-- align right default card -->
+<div class="ui-card" style="width: 20rem; text-align: right;">
+  <div class="ui-card-body">
+    <span class="ui-title-3">Some title</span>
+    <p>Some quick example text to build on the card title and make up
+    the bulk of the card's content</p>
+    </div>
+  </div>
+</div>
+<!-- align left default card -->
+<div class="ui-card" style="width: 20rem;">
   <div class="ui-card-body">
     <span class="ui-title-3">Some title</span>
     <p>Some quick example text to build on the card title and make up
@@ -107,7 +116,17 @@ Add animation by `.isAnimated` class and background color for display animation.
 <section class="ui-section">
   <div class="row">
     <!-- animated card -->
-    <div class="ui-card isAnimated" style="width: 20rem; background-color: #ccfbe5;">
+    <div class="ui-card isAnimated" style="width: 20rem;">
+      <div class="ui-card-body">
+        <span class="ui-title-3">Some title</span>
+        <p>Some quick example text to build on the card title</p>
+        <div class="ui-button-group" style="margin-top: 1rem">
+          <a href="#" class="ui-button isLink">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <!-- animated card -->
+    <div class="ui-card isAnimated" style="width: 20rem;">
       <div class="ui-card-body">
         <span class="ui-title-3">Some title</span>
         <p>Some quick example text to build on the card title</p>
@@ -118,16 +137,6 @@ Add animation by `.isAnimated` class and background color for display animation.
     </div>
     <!-- animated card -->
     <div class="ui-card isAnimated" style="width: 20rem; background-color: #ffdd9a;">
-      <div class="ui-card-body">
-        <span class="ui-title-3">Some title</span>
-        <p>Some quick example text to build on the card title</p>
-        <div class="ui-button-group" style="margin-top: 1rem">
-          <a href="#" class="ui-button isLink">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-    <!-- animated card -->
-    <div class="ui-card isAnimated" style="width: 20rem; background-color: #ffd3ce;">
       <div class="ui-card-body">
         <span class="ui-title-3">Some title</span>
         <p>Some quick example text to build on the card title</p>

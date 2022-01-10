@@ -171,7 +171,12 @@ module.exports = {
         {
           title: 'Uimini',
           collapsable: false,
-          children: ['', 'quick-start', 'download', 'showcase']
+          children: [
+            '',
+            'quick-start',
+            'download'
+            // 'showcase'
+          ]
         },
         {
           title: 'Design',
