@@ -36,19 +36,24 @@ Put it all together and your pages should looks like this:
   </head>
 
   <body class="ui-body">
-    <header>header</header>
+    <div class="ui-wrapper">
 
-    <div class="ui-content-wrapper">
-      <section class="section">
-        <div class="container">
-          <h1 class="ui-title-1">Hello world!</h1>
-        </div>
-      </section>
+      <!-- header -->
+      <header>header</header>
+
+      <div class="ui-content-wrapper">
+        <!-- page content -->
+        <section class="ui-section">
+          <div class="ui-container">
+            <h1 class="ui-title-1">Hello world!</h1>
+          </div>
+        </section>
+      </div>
+
+      <!-- footer -->
+      <footer>footer</footer>
     </div>
-
-    <footer>footer</footer>
   </body>
-
 </html>
 ```
 
