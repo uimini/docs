@@ -105,6 +105,14 @@ Uimini provide 8 types of button:
     <!-- <svg> or <img> is here -->
     Download
   </button>
+  <button class="ui-button isDangerous">
+    <!-- <svg> or <img> is here -->
+    Remove
+  </button>
+  <button class="ui-button isLink">
+    <!-- <svg> or <img> is here -->
+    Link to send
+  </button>
 </div>
 ```
 

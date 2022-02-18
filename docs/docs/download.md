@@ -21,7 +21,7 @@ This option doesn’t include documentation, source files, or any optional JavaS
 Copy-paste the stylesheet `<link>` into your `<head>` before all other stylesheets to load our CSS:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uimini@2.0.6/dist/uimini.min.css" integrity="sha256-h8u2/mt0aoFKmyVNtIVA0u65MdOePGkIhenx9fW6n9E=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uimini@2.0.7/dist/uimini.min.css" integrity="sha256-h8u2/mt0aoFKmyVNtIVA0u65MdOePGkIhenx9fW6n9E=" crossorigin="anonymous">
 ```
 
 ## Or compiled CSS
