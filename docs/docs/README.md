@@ -39,6 +39,15 @@ Also you can check any realizes [on github](https://github.com/uimini/uimini/rel
 - Do you need CDN ot download the source files? Head to the [Download page](/docs/download)
 - Find more examples in [Showcase page](http://localhost:8080/docs/docs/showcase.html)
 
+## Donation:
+
+Everybody knows that developing runs on coffee...
+
+Thanks for your support:
+
+[![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
+
+
 <!-- ## Installation
 
 We recommend using npm or yarn to install, it not only makes development easier, but also allow you to take advantage of the rich ecosystem of Javascript packages and tooling.
@@ -63,3 +72,6 @@ import 'uimini'
 ```
 
 See more on [quick start page](/docs/quick-start.html). -->
+
+[buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
+[buymeacoffee]: https://www.buymeacoffee.com/vedegis

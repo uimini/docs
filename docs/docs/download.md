@@ -8,6 +8,10 @@ Learn where to download and how to compile the Uimini sources.
 
 Here's ways how you can download uimini:
 
+> Everybody knows that developing runs on coffee! <br />
+> Thanks for your support! <br /> <br />
+> [![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
+
 <!-- ## Compiled CSS
 
 Download ready-to-use compiled css for uimini to easily drop into your project
@@ -213,3 +217,6 @@ Additional links for uimini v1:
 - Documentation page [is here](https://uimini.github.io/docs/v1/index.html);
 - Get started link [is here](https://uimini.github.io/docs/v1/get-started);
 - Github branch of Uimini v1 [is here](https://github.com/uimini/uimini/tree/v1-stable).
+
+[buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
+[buymeacoffee]: https://www.buymeacoffee.com/vedegis

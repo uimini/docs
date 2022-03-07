@@ -6,6 +6,10 @@ pageClass: ui-body
 
 Get started with Uimini framework for building responsive sites and apps with source files and template starter page.
 
+> Everybody knows that developing runs on coffee! <br />
+> Thanks for your support! <br /> <br />
+> [![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
+
 ## CDN
 
 Copy-paste the stylesheet `<link>` into your `<head>` before all other stylesheets to load our CSS:
@@ -60,3 +64,6 @@ Put it all together and your pages should looks like this:
 For next steps, visit the [Layout docs](https://uimini.github.io/docs/docs/layout.html#introduction) and check [optionals classes](https://uimini.github.io/docs/docs/layout.html#optionals-classes) to start laying out your site’s content and components.
 
 <!-- todo: Or check our official examples [here](#)  -->
+
+[buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
+[buymeacoffee]: https://www.buymeacoffee.com/vedegis
