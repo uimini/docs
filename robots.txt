@@ -1,0 +1,16 @@
+User-agent: Yandex
+Host: https://uimini.github.io/docs/
+Allow: /
+Disallow: /*?*
+
+User-agent: Googlebot
+Host: https://uimini.github.io/docs/
+Allow: /
+Disallow: /*?*
+
+User-agent: *
+Host: https://uimini.github.io/docs/
+Allow: /
+Disallow: /*?*
+
+Sitemap: https://uimini.github.io/docs/sitemap.xml
