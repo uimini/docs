@@ -8,17 +8,19 @@ Learn where to download and how to compile the Uimini sources.
 
 Here's ways how you can download uimini:
 
-> Everybody knows that developing runs on coffee! <br />
-> Thanks for your support! <br /> <br />
-> [![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
+<div class="support">
 
-<!-- ## Compiled CSS
+Everybody knows that developing runs on coffee! <br/>
+Thanks for your support!
 
-Download ready-to-use compiled css for uimini to easily drop into your project
+<div class="support-links">
 
-This option doesn’t include documentation, source files, or any optional JavaScript dependencies like Popper.
+[![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
 
-<a class="ui-button isPrimary" href="#">Download source</a> -->
+<a href="https://www.producthunt.com/posts/uimini?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-uimini" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=334978&theme=light" alt="Uimini - Uimini&#0032;modern&#0032;and&#0032;lightweight&#0032;CSS&#0032;framework | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
+</div>
+</div>
 
 ## CDN
 

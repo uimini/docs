@@ -95,7 +95,7 @@ Disabled switch.
 Ways to switch radio disabled:
 
 1. Use `disabled="disabled"` to `input`;
-2. Or add class `isDisabled` to parent.
+<!-- 2. Or add class `isDisabled` to parent. -->
 
 <section class="ui-section">
   <form>
@@ -108,10 +108,10 @@ Ways to switch radio disabled:
         <input type="checkbox" id="switch-DA2" disabled="disabled" />
         <label for="switch-DA2">Disabled by default</label>
       </div>
-      <div class="ui-switch isDisabled">
+      <!-- <div class="ui-switch isDisabled">
         <input type="checkbox" id="switch-DA3" />
         <label for="switch-DA3">Disabled by parent class</label>
-      </div>
+      </div> -->
     </div>
   </form>
 </section>
@@ -126,10 +126,6 @@ Ways to switch radio disabled:
     <div class="ui-switch">
       <input type="checkbox" id="switch-DA2" disabled="disabled" />
       <label for="switch-DA2">Disabled by default</label>
-    </div>
-    <div class="ui-switch isDisabled">
-      <input type="checkbox" id="switch-DA3" />
-      <label for="switch-DA3">Disabled by parent class</label>
     </div>
   </div>
 </form>

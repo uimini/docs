@@ -105,7 +105,7 @@ Disabled checkbox.
 Ways to make checkbox disabled:
 
 1. Use `disabled="disabled"` to `input`;
-2. Or add class `isDisabled` to parent.
+<!-- 2. Or add class `isDisabled` to parent. -->
 
 <section class="ui-section">
   <form>
@@ -118,10 +118,10 @@ Ways to make checkbox disabled:
         <input id="checkbox-XaA2" disabled="disabled" type="checkbox" />
         <label for="checkbox-XaA2">Disabled by default</label>
       </div>
-      <div class="ui-checkbox isDisabled">
+      <!-- <div class="ui-checkbox isDisabled">
         <input id="checkbox-XaA3" type="checkbox" />
         <label for="checkbox-XaA3">Disabled by parent class isDisabled</label>
-      </div>
+      </div> -->
     </div>
   </form>
 </section>
@@ -136,10 +136,6 @@ Ways to make checkbox disabled:
     <div class="ui-checkbox">
       <input id="checkbox-XaA2" disabled="disabled" type="checkbox" />
       <label for="checkbox-XaA2">Disabled by default</label>
-    </div>
-    <div class="ui-checkbox isDisabled">
-      <input id="checkbox-XaA3" type="checkbox" />
-      <label for="checkbox-XaA3">Disabled by parent class isDisabled</label>
     </div>
   </div>
 </form>

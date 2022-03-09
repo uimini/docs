@@ -39,14 +39,21 @@ Also you can check any realizes [on github](https://github.com/uimini/uimini/rel
 - Do you need CDN ot download the source files? Head to the [Download page](/docs/download)
 - Find more examples in [Showcase page](http://localhost:8080/docs/docs/showcase.html)
 
-## Donation:
+### Support:
 
-Everybody knows that developing runs on coffee...
+<div class="support">
 
-Thanks for your support:
+Everybody knows that developing runs on coffee! <br/>
+Thanks for your support!
+
+<div class="support-links">
 
 [![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
 
+<a href="https://www.producthunt.com/posts/uimini?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-uimini" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=334978&theme=light" alt="Uimini - Uimini&#0032;modern&#0032;and&#0032;lightweight&#0032;CSS&#0032;framework | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
+</div>
+</div>
 
 <!-- ## Installation
 
