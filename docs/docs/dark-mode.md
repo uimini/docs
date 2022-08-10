@@ -104,13 +104,15 @@ Default theme palette from `/src/theme/dark-theme.scss`.
 .ui-body {
   &.isDark {
     /* Main Colors */
-    --ui-primary-color: #1469b9;
+    --ui-primary-color: #4081bf;
     --ui-success-color: #419c13;
     --ui-warning-color: #af7b12;
     --ui-mark-color: #ffe58f;
     --ui-danger-color: #b21820;
 
+    /* Helpers */
     --ui-inverse-color: white;
+    --ui-reverse-color: black;
 
     /* Neutral Colors */
     --ui-g-0: #141414;

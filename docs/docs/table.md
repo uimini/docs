@@ -14,7 +14,7 @@ Table without any hover.
   <table class="ui-table">
     <thead>
       <tr>
-        <th>Name</th>
+        <th style="width:100%;">Name</th>
         <th>Gender</th>
         <th>Age</th>
       </tr>
@@ -49,7 +49,7 @@ Table without any hover.
 <table class="ui-table">
   <thead>
     <tr>
-      <th>Name</th>
+      <th style="width:100%;">Name</th>
       <th>Gender</th>
       <th>Age</th>
     </tr>
@@ -89,7 +89,7 @@ Same as above but with `isHover` class.
   <table class="ui-table isHover">
     <thead>
       <tr>
-        <th>Name</th>
+        <th style="width:100%;">Name</th>
         <th>Gender</th>
         <th>Age</th>
       </tr>
@@ -124,7 +124,7 @@ Same as above but with `isHover` class.
 <table class="ui-table isHover">
   <thead>
     <tr>
-      <th>Name</th>
+      <th style="width:100%;">Name</th>
       <th>Gender</th>
       <th>Age</th>
     </tr>

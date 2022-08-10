@@ -148,24 +148,26 @@ Uimini provide 3 types of statuses:
 
 <section class="ui-section">
   <div class="ui-button-group">
-    <button class="ui-button isDefault isLoading">Loading</button>
-    <button class="ui-button isSecondary isLoading">Loading</button>
-    <button class="ui-button isPrimary isLoading">Loading</button>
-    <!-- empty button with isLoading -->
-    <button class="ui-button isPrimary isLoading"></button>
-    <button class="ui-button isDangerous isLoading">Loading</button>
+    <button class="ui-button isDefault isLoading isDisabled">Loading</button>
+    <button class="ui-button isSecondary isLoading isDisabled">Loading</button>
+    <button class="ui-button isPrimary isLoading isDisabled">Loading</button>
+    <button class="ui-button isDangerous isLoading isDisabled">Loading</button>
+    <!-- empty button -->
+    <button class="ui-button isSecondary isLoading isDisabled"></button>
+    <button class="ui-button isPrimary isLoading isDisabled"></button>
   </div>
 </section>
 
 ```html
 <section class="ui-section">
   <div class="ui-button-group">
-    <button class="ui-button isDefault isLoading">Loading</button>
-    <button class="ui-button isSecondary isLoading">Loading</button>
-    <button class="ui-button isPrimary isLoading">Loading</button>
+    <button class="ui-button isDefault isLoading isDisabled">Loading</button>
+    <button class="ui-button isSecondary isLoading isDisabled">Loading</button>
+    <button class="ui-button isPrimary isLoading isDisabled">Loading</button>
+    <button class="ui-button isDangerous isLoading isDisabled">Loading</button>
     <!-- empty button -->
-    <button class="ui-button isPrimary isLoading"></button>
-    <button class="ui-button isDangerous isLoading">Loading</button>
+    <button class="ui-button isSecondary isLoading isDisabled"></button>
+    <button class="ui-button isPrimary isLoading isDisabled"></button>
   </div>
 </section>
 ```
@@ -176,7 +178,6 @@ Uimini provide 3 types of statuses:
   <div class="ui-button-group">
     <button class="ui-button isPrimary">Primary</button>
     <button class="ui-button isPrimary isActive">Active primary</button>
-    <button class="ui-button isPrimary">Primary</button>
   </div>
 </section>
 
@@ -185,7 +186,6 @@ Uimini provide 3 types of statuses:
   <div class="ui-button-group">
     <button class="ui-button isPrimary">Primary</button>
     <button class="ui-button isPrimary isActive">Active primary</button>
-    <button class="ui-button isPrimary">Primary</button>
   </div>
 </section>
 ```
