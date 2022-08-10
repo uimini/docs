@@ -104,24 +104,28 @@ Disabled checkbox.
 
 Ways to make checkbox disabled:
 
-1. Use `disabled="disabled"` to `input`;
-<!-- 2. Or add class `isDisabled` to parent. -->
+1. Add `disabled="disabled"` to the `<input />`;
+2. Add class `isDisabled` to the `<div class="ui-checkbox">` (optional).
 
 <section class="ui-section">
   <form>
     <div class="ui-input-group">
-        <div class="ui-checkbox">
-        <input id="checkbox-XaA1" type="checkbox" disabled="disabled" checked />
-        <label for="checkbox-XaA1">Disabled and checked</label>
+      <div class="ui-checkbox">
+        <input id="checkbox-XaA111" type="checkbox" />
+        <label for="checkbox-XaA111">Default</label>
       </div>
       <div class="ui-checkbox">
-        <input id="checkbox-XaA2" disabled="disabled" type="checkbox" />
-        <label for="checkbox-XaA2">Disabled by default</label>
+        <input id="checkbox-XaA112" type="checkbox" checked />
+        <label for="checkbox-XaA112">Default and checked</label>
       </div>
-      <!-- <div class="ui-checkbox isDisabled">
-        <input id="checkbox-XaA3" type="checkbox" />
-        <label for="checkbox-XaA3">Disabled by parent class isDisabled</label>
-      </div> -->
+      <div class="ui-checkbox isDisabled">
+        <input id="checkbox-XaA2" disabled="disabled" type="checkbox" />
+        <label for="checkbox-XaA2">Disabled</label>
+      </div>
+      <div class="ui-checkbox isDisabled">
+        <input id="checkbox-XaA3" type="checkbox" disabled="disabled" checked />
+        <label for="checkbox-XaA3">Disabled and checked</label>
+      </div>
     </div>
   </form>
 </section>
@@ -129,13 +133,13 @@ Ways to make checkbox disabled:
 ```html
 <form>
   <div class="ui-input-group">
-    <div class="ui-checkbox">
-      <input id="checkbox-XaA1" type="checkbox" disabled="disabled" checked />
-      <label for="checkbox-XaA1">Disabled and checked</label>
-    </div>
-    <div class="ui-checkbox">
+    <div class="ui-checkbox isDisabled">
       <input id="checkbox-XaA2" disabled="disabled" type="checkbox" />
-      <label for="checkbox-XaA2">Disabled by default</label>
+      <label for="checkbox-XaA2">Disabled</label>
+    </div>
+    <div class="ui-checkbox isDisabled">
+      <input id="checkbox-XaA3" type="checkbox" disabled="disabled" checked />
+      <label for="checkbox-XaA3">Disabled and checked</label>
     </div>
   </div>
 </form>

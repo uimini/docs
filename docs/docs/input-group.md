@@ -6,15 +6,15 @@ pageClass: ui-body
 
 Group for inputs to control bar position (vertical / horizontal) and add margins
 
-By default input-groups is vertical! For use horizontal add class `isHorizontal` for parent.
+By default input-groups is vertical. For use horizontal add class `isHorizontal` to the parent.
 
 Recommended to use for:
 
-- [Checkbox](#)
-- [Input](#)
-- [Radio](#)
-- [Select](#)
-- [Switch](#)
+- [Checkbox](/docs/checkbox.html)
+- [Input](/docs/input.html)
+- [Radio](/docs/radio.html)
+- [Select](/docs/select.html)
+- [Switch](/docs/switch.html)
 
 ## Default group
 

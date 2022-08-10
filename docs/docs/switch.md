@@ -94,24 +94,28 @@ Disabled switch.
 
 Ways to switch radio disabled:
 
-1. Use `disabled="disabled"` to `input`;
-<!-- 2. Or add class `isDisabled` to parent. -->
+1. Add `disabled="disabled"` to the `<input />`;
+2. Add class `isDisabled` to the `<div class="ui-switch">` (optional).
 
 <section class="ui-section">
   <form>
     <div class="ui-input-group">
       <div class="ui-switch">
-        <input type="checkbox" id="switch-DA1" disabled="disabled" checked />
-        <label for="switch-DA1">Disabled and checked</label>
+        <input type="checkbox" id="switch-DA111" />
+        <label for="switch-DA111">Default</label>
       </div>
       <div class="ui-switch">
-        <input type="checkbox" id="switch-DA2" disabled="disabled" />
-        <label for="switch-DA2">Disabled by default</label>
+        <input type="checkbox" id="switch-DA112" checked />
+        <label for="switch-DA112">Default and checked</label>
       </div>
-      <!-- <div class="ui-switch isDisabled">
-        <input type="checkbox" id="switch-DA3" />
-        <label for="switch-DA3">Disabled by parent class</label>
-      </div> -->
+      <div class="ui-switch isDisabled">
+        <input type="checkbox" id="switch-DA1" disabled="disabled" />
+        <label for="switch-DA1">Disabled</label>
+      </div>
+      <div class="ui-switch isDisabled">
+        <input type="checkbox" id="switch-DA2" disabled="disabled" checked />
+        <label for="switch-DA2">Disabled and checked</label>
+      </div>
     </div>
   </form>
 </section>
@@ -119,13 +123,13 @@ Ways to switch radio disabled:
 ```html
 <form>
   <div class="ui-input-group">
-    <div class="ui-switch">
-      <input type="checkbox" id="switch-DA1" disabled="disabled" checked />
-      <label for="switch-DA1">Disabled and checked</label>
+    <div class="ui-switch isDisabled">
+      <input type="checkbox" id="switch-DA1" disabled="disabled" />
+      <label for="switch-DA1">Disabled</label>
     </div>
-    <div class="ui-switch">
-      <input type="checkbox" id="switch-DA2" disabled="disabled" />
-      <label for="switch-DA2">Disabled by default</label>
+    <div class="ui-switch isDisabled">
+      <input type="checkbox" id="switch-DA2" disabled="disabled" checked />
+      <label for="switch-DA2">Disabled and checked</label>
     </div>
   </div>
 </form>

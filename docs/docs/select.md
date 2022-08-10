@@ -129,3 +129,44 @@ Loading status to show progress. Use by parent class `isLoading`.
   </div>
 </form>
 ```
+
+## Disabled status
+
+Disabled input.
+
+Way to make input disabled:
+
+1. Add `disabled="disabled"` to the `<select />`.
+2. Add class `isDisabled` to the `<div class="ui-select">` (optional).
+
+<section class="ui-section">
+  <form style="max-width: 400px;">
+    <div class="ui-input-group">
+      <select class="ui-select" name="select-Slc111">
+        <option value="option0" selected disabled>Default select</option>
+        <option value="orange">Orange</option>
+        <option value="apple" >Loading</option>
+        <option value="mango">Mango</option>
+      </select>
+      <select class="ui-select isDisabled" disabled="disabled" name="select-Slc222">
+        <option value="option0">Disabled select</option>
+        <option value="orange">Orange</option>
+        <option value="apple" >Loading</option>
+        <option value="mango">Mango</option>
+      </select>
+    </div>
+  </form>
+</section>
+
+```html
+<form style="max-width: 400px;">
+  <div class="ui-input-group">
+    <select class="ui-select isDisabled" disabled="disabled" name="select-Slc222">
+      <option value="option0">Disabled select</option>
+      <option value="orange">Orange</option>
+      <option value="apple" >Loading</option>
+      <option value="mango">Mango</option>
+    </select>
+  </div>
+</form>
+```

@@ -6,6 +6,11 @@ pageClass: ui-body
 
 Group a series of buttons together on a single line or stack them in a vertical or horizontal column.
 
+Recommended to use for:
+
+- [Button](/docs/button.html)
+- [Tag](/docs/tag.html)
+
 ## Default group
 
 By default all button inside group will be in horizontal column.

@@ -19,7 +19,7 @@ Default example.
           id="input-DqS1"
           type="text"
           value=""
-          placeholder="hello"
+          placeholder="Enter your name"
         />
       </div>
       <div class="ui-input">
@@ -28,7 +28,7 @@ Default example.
           id="input-DqS2"
           type="password"
           value=""
-          placeholder="hello"
+          placeholder="Enter your password"
         />
       </div>
     </div>
@@ -40,11 +40,11 @@ Default example.
   <div class="ui-input-group">
     <div class="ui-input">
       <label for="input-DqS1">Default input</label>
-      <input id="input-DqS1" type="text" value="" placeholder="hello" />
+      <input id="input-DqS1" type="text" value="" placeholder="Enter your name" />
     </div>
     <div class="ui-input">
       <label for="input-DqS2">Password input</label>
-      <input id="input-DqS2" type="password" value="" placeholder="hello" />
+      <input id="input-DqS2" type="password" value="" placeholder="Enter your password" />
     </div>
   </div>
 </form>
@@ -62,9 +62,10 @@ Use by add class `isRequired` to parent.
       <label for="input-XqX1">Required input</label>
       <input
         id="input-XqX1"
+        required
         type="text"
         value=""
-        placeholder="hello"
+        placeholder="This is required input"
       />
     </div>
   </form>
@@ -74,7 +75,7 @@ Use by add class `isRequired` to parent.
 <form style="max-width: 400px;">
   <div class="ui-input isRequired">
     <label for="input-XqX2">Required input</label>
-    <input id="input-XqX2" type="text" value="" placeholder="hello" />
+    <input id="input-XqX2" type="text" required value="" placeholder="hello" />
   </div>
 </form>
 ```
@@ -83,31 +84,50 @@ Use by add class `isRequired` to parent.
 
 Disabled input.
 
-Way to make disabled:
+Way to make input disabled:
 
-1. Use `disabled="disabled"` for `<input />`.
+1. Add `disabled="disabled"` to the `<input />`.
+2. Add class `isDisabled` to the `<div class="ui-input">` (optional).
 
 <section class="ui-section">
   <form style="max-width: 400px;">
     <div class="ui-input-group">
       <div class="ui-input">
-        <label for="input-DaX1">Disabled input</label>
+        <label for="input-DaX111">Default input</label>
         <input
-          id="input-DaX1"
+          id="input-DaX111"
           type="text"
-          disabled="disabled"
           value=""
-          placeholder="hello"
+          placeholder=""
         />
       </div>
       <div class="ui-input">
-        <label for="input-DaX3">Disabled input without placeholder</label>
+        <label for="input-DaX112">Default input with placeholder</label>
+        <input
+          id="input-DaX112"
+          type="text"
+          value=""
+          placeholder="Default input with placeholder"
+        />
+      </div>
+      <div class="ui-input isDisabled">
+        <label for="input-DaX2">Disabled input</label>
+        <input
+          id="input-DaX2"
+          type="text"
+          disabled="disabled"
+          value=""
+          placeholder=""
+        />
+      </div>
+      <div class="ui-input isDisabled">
+        <label for="input-DaX3">Disabled input with placeholder</label>
         <input
           id="input-DaX3"
           type="text"
           disabled="disabled"
           value=""
-          placeholder=""
+          placeholder="Disabled input with placeholder"
         />
       </div>
     </div>
@@ -117,17 +137,25 @@ Way to make disabled:
 ```html
 <form style="max-width: 400px;">
   <div class="ui-input-group">
-    <div class="ui-input">
-      <label for="input-DaX1">Disabled input by default</label>
-      <input id="input-DaX1" type="text" disabled="disabled" value="" placeholder="hello" />
+    <div class="ui-input isDisabled">
+      <label for="input-DaX2">Disabled input</label>
+      <input
+        id="input-DaX2"
+        type="text"
+        disabled="disabled"
+        value=""
+        placeholder=""
+      />
     </div>
     <div class="ui-input isDisabled">
-      <label for="input-DaX2">Disabled input by parent class</label>
-      <input id="input-DaX2" type="text" value="" placeholder="hello" />
-    </div>
-    <div class="ui-input">
-      <label for="input-DaX3">Disabled input without placeholder</label>
-      <input id="input-DaX3" type="text" disabled="disabled" value="" placeholder="" />
+      <label for="input-DaX3">Disabled input with placeholder</label>
+      <input
+        id="input-DaX3"
+        type="text"
+        disabled="disabled"
+        value=""
+        placeholder="Disabled input with placeholder"
+      />
     </div>
   </div>
 </form>
