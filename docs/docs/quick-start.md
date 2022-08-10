@@ -27,7 +27,7 @@ Copy-paste the stylesheet `<link>` into your `<head>` before all other styleshee
 ```html
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/uimini@2.0.7/dist/uimini.min.css"
+  href="https://cdn.jsdelivr.net/npm/uimini@2.0.8/dist/uimini.min.css"
   integrity="sha256-h8u2/mt0aoFKmyVNtIVA0u65MdOePGkIhenx9fW6n9E="
   crossorigin="anonymous"
 />
@@ -51,7 +51,7 @@ Put it all together and your pages should looks like this:
     <!-- cdn link -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/uimini@2.0.7/dist/uimini.min.css"
+      href="https://cdn.jsdelivr.net/npm/uimini@2.0.8/dist/uimini.min.css"
       integrity="sha256-h8u2/mt0aoFKmyVNtIVA0u65MdOePGkIhenx9fW6n9E="
       crossorigin="anonymous"
     />
